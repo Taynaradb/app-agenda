@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css">
+
+    <title>Hello World</title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>App notas</h1>
+        <div class="row">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" aria-describedby="nome">
+            </div>
+        </div>
+        <div class="row">
+            <div class="mb-3">
+                <label for="telefone" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="telefone" aria-describedby="telefone">
+            </div>
+        </div>
+        <div class="row">
+            <div class="mb-3">
+                <button id="salvar" type="button" class="btn btn-primary">Salvar</button>
+            </div>
+        </div>
+        <div class="row mt-5 p-3 mb-3 bg-info">
+            <div class="col-lg-12">
+                <h2>Contatos</h2>
+            
+            <ul id="lista-contatos"></ul>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="mb-3">
+                <button id="apagar" type="button" class="btn btn-primary">Apagar</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/jquery/dist/jquery.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="css/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
